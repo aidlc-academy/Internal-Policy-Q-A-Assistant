@@ -1,0 +1,18 @@
+{
+  "documents": {
+    "HR Policy Manual 2024": {
+      "title": "",
+      "author": "",
+      "subject": "",
+      "effective_date": "2023-12-29",
+      "version": "1.0",
+      "status": "approved"
+    }
+  },
+  "total_chunks": 897,
+  "embedding_model": "all-MiniLM-L6-v2",
+  "chunk_params": {
+    "target_size": 600,
+    "overlap": 100
+  }
+}

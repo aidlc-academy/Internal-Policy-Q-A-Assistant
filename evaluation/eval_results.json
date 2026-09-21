@@ -1,0 +1,530 @@
+[
+  {
+    "question_id": 1,
+    "category": "leave",
+    "question": "How many days of casual leave am I entitled to per year?",
+    "error": "timed out",
+    "verdict": "ERROR"
+  },
+  {
+    "question_id": 2,
+    "category": "probation",
+    "question": "What is the probation period for new employees?",
+    "status": "answered",
+    "answer": "The available policy documents do not contain enough information to answer this question.\n\nHowever, according to Excerpt 2, the probationary period will be such as may be determined, and on expiry of the stipulated period of probation, the employee shall be deemed to continue on probation as a probationer.",
+    "sources": [
+      {
+        "document": "",
+        "doc_id": "HR Policy Manual 2024",
+        "page": 69,
+        "section": "General",
+        "effective_date": "2023-12-29",
+        "version": "1.0",
+        "similarity": 0.7722446918487549
+      },
+      {
+        "document": "",
+        "doc_id": "HR Policy Manual 2024",
+        "page": 67,
+        "section": "General",
+        "effective_date": "2023-12-29",
+        "version": "1.0",
+        "similarity": 0.7439723610877991
+      },
+      {
+        "document": "",
+        "doc_id": "HR Policy Manual 2024",
+        "page": 68,
+        "section": "General",
+        "effective_date": "2023-12-29",
+        "version": "1.0",
+        "similarity": 0.7382166981697083
+      },
+      {
+        "document": "",
+        "doc_id": "HR Policy Manual 2024",
+        "page": 71,
+        "section": "General",
+        "effective_date": "2023-12-29",
+        "version": "1.0",
+        "similarity": 0.7306727170944214
+      }
+    ],
+    "conflict_warning": null,
+    "expected_phrases_found": [
+      "probation",
+      "period"
+    ],
+    "expected_phrases_missing": [],
+    "expected_pages_matched": [
+      67,
+      68,
+      69
+    ],
+    "expected_pages_missing": [],
+    "verdict": "PASS"
+  },
+  {
+    "question_id": 3,
+    "category": "leave",
+    "question": "Can I carry forward unused leave to the next year?",
+    "status": "unanswerable",
+    "answer": "The available policy documents do not contain enough information to answer this question.",
+    "sources": [
+      {
+        "document": "",
+        "doc_id": "HR Policy Manual 2024",
+        "page": 79,
+        "section": "General",
+        "effective_date": "2023-12-29",
+        "version": "1.0",
+        "similarity": 0.7725704610347748
+      },
+      {
+        "document": "",
+        "doc_id": "HR Policy Manual 2024",
+        "page": 81,
+        "section": "General",
+        "effective_date": "2023-12-29",
+        "version": "1.0",
+        "similarity": 0.7713499069213867
+      },
+      {
+        "document": "",
+        "doc_id": "HR Policy Manual 2024",
+        "page": 78,
+        "section": "General",
+        "effective_date": "2023-12-29",
+        "version": "1.0",
+        "similarity": 0.7607762217521667
+      },
+      {
+        "document": "",
+        "doc_id": "HR Policy Manual 2024",
+        "page": 155,
+        "section": "General",
+        "effective_date": "2023-12-29",
+        "version": "1.0",
+        "similarity": 0.7607265412807465
+      },
+      {
+        "document": "",
+        "doc_id": "HR Policy Manual 2024",
+        "page": 77,
+        "section": "General",
+        "effective_date": "2023-12-29",
+        "version": "1.0",
+        "similarity": 0.757914662361145
+      }
+    ],
+    "conflict_warning": null,
+    "expected_phrases_found": [],
+    "expected_phrases_missing": [
+      "carry",
+      "leave"
+    ],
+    "expected_pages_matched": [
+      79
+    ],
+    "expected_pages_missing": [
+      80
+    ],
+    "verdict": "CHECK"
+  },
+  {
+    "question_id": 4,
+    "category": "work_hours",
+    "question": "What are the standard working hours?",
+    "status": "answered",
+    "answer": "According to Excerpt 1, Document: IIMA HR Policy Manual 2024, Page: 134, Section: General, the standard working hours are from 9:00 am to 5:45 pm (Monday to Friday).",
+    "sources": [
+      {
+        "document": "",
+        "doc_id": "HR Policy Manual 2024",
+        "page": 134,
+        "section": "General",
+        "effective_date": "2023-12-29",
+        "version": "1.0",
+        "similarity": 0.7559938430786133
+      },
+      {
+        "document": "",
+        "doc_id": "HR Policy Manual 2024",
+        "page": 77,
+        "section": "General",
+        "effective_date": "2023-12-29",
+        "version": "1.0",
+        "similarity": 0.7464251220226288
+      },
+      {
+        "document": "",
+        "doc_id": "HR Policy Manual 2024",
+        "page": 140,
+        "section": "General",
+        "effective_date": "2023-12-29",
+        "version": "1.0",
+        "similarity": 0.7337372601032257
+      }
+    ],
+    "conflict_warning": null,
+    "expected_phrases_found": [
+      "hours",
+      "work"
+    ],
+    "expected_phrases_missing": [],
+    "expected_pages_matched": [],
+    "expected_pages_missing": [
+      10,
+      11
+    ],
+    "verdict": "CHECK"
+  },
+  {
+    "question_id": 5,
+    "category": "benefits",
+    "question": "Am I eligible for health insurance during probation?",
+    "status": "unanswerable",
+    "answer": "The available policy documents do not contain enough information to answer this question.",
+    "sources": [],
+    "conflict_warning": null,
+    "expected_phrases_found": [],
+    "expected_phrases_missing": [
+      "insurance",
+      "probation"
+    ],
+    "expected_pages_matched": [],
+    "expected_pages_missing": [
+      67,
+      68,
+      69,
+      100
+    ],
+    "verdict": "CHECK"
+  },
+  {
+    "question_id": 6,
+    "category": "leave",
+    "question": "How do I apply for maternity leave?",
+    "status": "answered",
+    "answer": "(Source: IIMA HR Policy Manual 2024, Page 82, Section: General)\n\nTo apply for maternity leave, an employee must submit a leave application in the Electronic Leave System (ESS) supported by a certificate from a Registered Medical Practitioner. The application should be submitted well in advance. The leave is granted on full pay and is not debited to the leave account. Additionally, the employee must submit a hospital discharge certificate and a copy of the birth certificate of the child after availing the maternity leave.",
+    "sources": [
+      {
+        "document": "",
+        "doc_id": "HR Policy Manual 2024",
+        "page": 82,
+        "section": "General",
+        "effective_date": "2023-12-29",
+        "version": "1.0",
+        "similarity": 0.7870528399944305
+      },
+      {
+        "document": "",
+        "doc_id": "HR Policy Manual 2024",
+        "page": 83,
+        "section": "General",
+        "effective_date": "2023-12-29",
+        "version": "1.0",
+        "similarity": 0.7482005953788757
+      },
+      {
+        "document": "",
+        "doc_id": "HR Policy Manual 2024",
+        "page": 80,
+        "section": "General",
+        "effective_date": "2023-12-29",
+        "version": "1.0",
+        "similarity": 0.7288299202919006
+      }
+    ],
+    "conflict_warning": null,
+    "expected_phrases_found": [
+      "maternity",
+      "apply"
+    ],
+    "expected_phrases_missing": [],
+    "expected_pages_matched": [],
+    "expected_pages_missing": [
+      85,
+      86
+    ],
+    "verdict": "CHECK"
+  },
+  {
+    "question_id": 7,
+    "category": "conduct",
+    "question": "What is the policy on remote work?",
+    "status": "unanswerable",
+    "answer": "The available policy documents do not contain enough information to answer this question.",
+    "sources": [],
+    "conflict_warning": null,
+    "expected_phrases_found": [],
+    "expected_phrases_missing": [
+      "remote",
+      "work"
+    ],
+    "expected_pages_matched": [],
+    "expected_pages_missing": [
+      20,
+      21
+    ],
+    "verdict": "CHECK"
+  },
+  {
+    "question_id": 8,
+    "category": "termination",
+    "question": "What is the notice period for resignation?",
+    "error": "timed out",
+    "verdict": "ERROR"
+  },
+  {
+    "question_id": 9,
+    "category": "compensation",
+    "question": "When is the salary credited each month?",
+    "status": "unanswerable",
+    "answer": "The available policy documents do not contain enough information to answer this question.",
+    "sources": [
+      {
+        "document": "",
+        "doc_id": "HR Policy Manual 2024",
+        "page": 80,
+        "section": "General",
+        "effective_date": "2023-12-29",
+        "version": "1.0",
+        "similarity": 0.7594004571437836
+      },
+      {
+        "document": "",
+        "doc_id": "HR Policy Manual 2024",
+        "page": 193,
+        "section": "General",
+        "effective_date": "2023-12-29",
+        "version": "1.0",
+        "similarity": 0.7592612504959106
+      },
+      {
+        "document": "",
+        "doc_id": "HR Policy Manual 2024",
+        "page": 192,
+        "section": "General",
+        "effective_date": "2023-12-29",
+        "version": "1.0",
+        "similarity": 0.7480486035346985
+      },
+      {
+        "document": "",
+        "doc_id": "HR Policy Manual 2024",
+        "page": 147,
+        "section": "General",
+        "effective_date": "2023-12-29",
+        "version": "1.0",
+        "similarity": 0.7449458241462708
+      }
+    ],
+    "conflict_warning": null,
+    "expected_phrases_found": [],
+    "expected_phrases_missing": [
+      "salary",
+      "credited"
+    ],
+    "expected_pages_matched": [],
+    "expected_pages_missing": [
+      40,
+      41
+    ],
+    "verdict": "CHECK"
+  },
+  {
+    "question_id": 10,
+    "category": "leave",
+    "question": "Can I take unpaid leave?",
+    "status": "answered",
+    "answer": "According to Excerpt 1, Document: | Page: 81 | Section: General | Status: approved | Effective: 2023-12-29, an Extraordinary Leave without pay can be applied on personal ground only, and the sanction of this leave will be at the sole discretion of the Director. The Extraordinary Leave without pay will be for the duration of maximum one year only.",
+    "sources": [
+      {
+        "document": "",
+        "doc_id": "HR Policy Manual 2024",
+        "page": 81,
+        "section": "General",
+        "effective_date": "2023-12-29",
+        "version": "1.0",
+        "similarity": 0.767767071723938
+      },
+      {
+        "document": "",
+        "doc_id": "HR Policy Manual 2024",
+        "page": 78,
+        "section": "General",
+        "effective_date": "2023-12-29",
+        "version": "1.0",
+        "similarity": 0.7569710612297058
+      },
+      {
+        "document": "",
+        "doc_id": "HR Policy Manual 2024",
+        "page": 80,
+        "section": "General",
+        "effective_date": "2023-12-29",
+        "version": "1.0",
+        "similarity": 0.7517971694469452
+      },
+      {
+        "document": "",
+        "doc_id": "HR Policy Manual 2024",
+        "page": 72,
+        "section": "General",
+        "effective_date": "2023-12-29",
+        "version": "1.0",
+        "similarity": 0.7484341561794281
+      },
+      {
+        "document": "",
+        "doc_id": "HR Policy Manual 2024",
+        "page": 71,
+        "section": "General",
+        "effective_date": "2023-12-29",
+        "version": "1.0",
+        "similarity": 0.7479921877384186
+      }
+    ],
+    "conflict_warning": null,
+    "expected_phrases_found": [
+      "leave"
+    ],
+    "expected_phrases_missing": [
+      "unpaid"
+    ],
+    "expected_pages_matched": [
+      80
+    ],
+    "expected_pages_missing": [
+      79
+    ],
+    "verdict": "PASS"
+  },
+  {
+    "question_id": 11,
+    "category": "unanswerable",
+    "question": "What is the company's policy on cryptocurrency investments?",
+    "status": "unanswerable",
+    "answer": "The available policy documents do not contain enough information to answer this question.",
+    "sources": [],
+    "conflict_warning": null,
+    "expected_phrases_found": [
+      "not contain enough information"
+    ],
+    "expected_phrases_missing": [],
+    "expected_pages_matched": [],
+    "expected_pages_missing": [],
+    "verdict": "PASS"
+  },
+  {
+    "question_id": 12,
+    "category": "unanswerable",
+    "question": "How many planets are in the solar system?",
+    "status": "unanswerable",
+    "answer": "The available policy documents do not contain enough information to answer this question.",
+    "sources": [],
+    "conflict_warning": null,
+    "expected_phrases_found": [
+      "not contain enough information"
+    ],
+    "expected_phrases_missing": [],
+    "expected_pages_matched": [],
+    "expected_pages_missing": [],
+    "verdict": "PASS"
+  },
+  {
+    "question_id": 13,
+    "category": "conflict",
+    "question": "What are the rules for work-from-home eligibility?",
+    "status": "unanswerable",
+    "answer": "The available policy documents do not contain enough information to answer this question.",
+    "sources": [
+      {
+        "document": "",
+        "doc_id": "HR Policy Manual 2024",
+        "page": 161,
+        "section": "General",
+        "effective_date": "2023-12-29",
+        "version": "1.0",
+        "similarity": 0.744646817445755
+      },
+      {
+        "document": "",
+        "doc_id": "HR Policy Manual 2024",
+        "page": 132,
+        "section": "General",
+        "effective_date": "2023-12-29",
+        "version": "1.0",
+        "similarity": 0.7372596561908722
+      },
+      {
+        "document": "",
+        "doc_id": "HR Policy Manual 2024",
+        "page": 155,
+        "section": "General",
+        "effective_date": "2023-12-29",
+        "version": "1.0",
+        "similarity": 0.736514687538147
+      },
+      {
+        "document": "",
+        "doc_id": "HR Policy Manual 2024",
+        "page": 108,
+        "section": "General",
+        "effective_date": "2023-12-29",
+        "version": "1.0",
+        "similarity": 0.7342303395271301
+      }
+    ],
+    "conflict_warning": null,
+    "expected_phrases_found": [],
+    "expected_phrases_missing": [
+      "work",
+      "home"
+    ],
+    "expected_pages_matched": [],
+    "expected_pages_missing": [
+      20,
+      21
+    ],
+    "verdict": "CHECK"
+  },
+  {
+    "question_id": 14,
+    "category": "edge",
+    "question": "leave",
+    "status": "unanswerable",
+    "answer": "The available policy documents do not contain enough information to answer this question.",
+    "sources": [],
+    "conflict_warning": null,
+    "expected_phrases_found": [],
+    "expected_phrases_missing": [],
+    "expected_pages_matched": [],
+    "expected_pages_missing": [],
+    "verdict": "PASS"
+  },
+  {
+    "question_id": 15,
+    "category": "edge",
+    "question": "Can I take leave during probation and also get health insurance while working remotely on weekends?",
+    "status": "unanswerable",
+    "answer": "The available policy documents do not contain enough information to answer this question.",
+    "sources": [],
+    "conflict_warning": null,
+    "expected_phrases_found": [],
+    "expected_phrases_missing": [
+      "leave",
+      "probation"
+    ],
+    "expected_pages_matched": [],
+    "expected_pages_missing": [
+      67,
+      68,
+      69,
+      79,
+      80
+    ],
+    "verdict": "CHECK"
+  }
+]

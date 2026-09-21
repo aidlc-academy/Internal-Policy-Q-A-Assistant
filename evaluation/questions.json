@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "category": "leave",
+    "question": "How many days of casual leave am I entitled to per year?",
+    "expected_source_pages": [79],
+    "expected_answer_contains": ["casual leave", "days"]
+  },
+  {
+    "id": 2,
+    "category": "probation",
+    "question": "What is the probation period for new employees?",
+    "expected_source_pages": [67, 68, 69],
+    "expected_answer_contains": ["probation", "period"]
+  },
+  {
+    "id": 3,
+    "category": "leave",
+    "question": "Can I carry forward unused leave to the next year?",
+    "expected_source_pages": [79, 80],
+    "expected_answer_contains": ["carry", "leave"]
+  },
+  {
+    "id": 4,
+    "category": "work_hours",
+    "question": "What are the standard working hours?",
+    "expected_source_pages": [10, 11],
+    "expected_answer_contains": ["hours", "work"]
+  },
+  {
+    "id": 5,
+    "category": "benefits",
+    "question": "Am I eligible for health insurance during probation?",
+    "expected_source_pages": [67, 68, 69, 100],
+    "expected_answer_contains": ["insurance", "probation"]
+  },
+  {
+    "id": 6,
+    "category": "leave",
+    "question": "How do I apply for maternity leave?",
+    "expected_source_pages": [85, 86],
+    "expected_answer_contains": ["maternity", "apply"]
+  },
+  {
+    "id": 7,
+    "category": "conduct",
+    "question": "What is the policy on remote work?",
+    "expected_source_pages": [20, 21],
+    "expected_answer_contains": ["remote", "work"]
+  },
+  {
+    "id": 8,
+    "category": "termination",
+    "question": "What is the notice period for resignation?",
+    "expected_source_pages": [150, 151],
+    "expected_answer_contains": ["notice", "resignation"]
+  },
+  {
+    "id": 9,
+    "category": "compensation",
+    "question": "When is the salary credited each month?",
+    "expected_source_pages": [40, 41],
+    "expected_answer_contains": ["salary", "credited"]
+  },
+  {
+    "id": 10,
+    "category": "leave",
+    "question": "Can I take unpaid leave?",
+    "expected_source_pages": [79, 80],
+    "expected_answer_contains": ["unpaid", "leave"]
+  },
+  {
+    "id": 11,
+    "category": "unanswerable",
+    "question": "What is the company's policy on cryptocurrency investments?",
+    "expected_source_pages": [],
+    "expected_answer_contains": ["not contain enough information"]
+  },
+  {
+    "id": 12,
+    "category": "unanswerable",
+    "question": "How many planets are in the solar system?",
+    "expected_source_pages": [],
+    "expected_answer_contains": ["not contain enough information"]
+  },
+  {
+    "id": 13,
+    "category": "conflict",
+    "question": "What are the rules for work-from-home eligibility?",
+    "expected_source_pages": [20, 21],
+    "expected_answer_contains": ["work", "home"],
+    "note": "Test conflict detection if multiple policy versions exist"
+  },
+  {
+    "id": 14,
+    "category": "edge",
+    "question": "leave",
+    "expected_source_pages": [],
+    "expected_answer_contains": [],
+    "note": "Single-word query - should still retrieve results"
+  },
+  {
+    "id": 15,
+    "category": "edge",
+    "question": "Can I take leave during probation and also get health insurance while working remotely on weekends?",
+    "expected_source_pages": [67, 68, 69, 79, 80],
+    "expected_answer_contains": ["leave", "probation"],
+    "note": "Multi-topic question - should handle gracefully"
+  }
+]
