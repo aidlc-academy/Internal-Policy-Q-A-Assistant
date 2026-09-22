@@ -124,7 +124,3 @@ RAG_EXPLANATION.md   Detailed explanation of retrieval and grounding
 - **Embeddings:** Sentence Transformers (`all-MiniLM-L6-v2`)
 - **Language model:** Ollama (`llama3.2:3b`)
 - **Document extraction:** PyMuPDF
-
-## Important Limitation
-
-Grounding reduces unsupported answers but is not an absolute guarantee of correctness. Policies can change, documents can contain ambiguity, and a language model can still make mistakes. Treat citations and evaluation results as review aids, and have an authorized policy owner verify answers before using this system for consequential HR decisions.
